@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fim do Jogo</title>
+    <style>
+        body {
+            background: black;
+            color: lime;
+            font-family: monospace;
+            text-align: center;
+            margin-top: 20%;
+        }
+        
+        #dev {
+            margin: 0;
+            color: rgb(0, 255, 0);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: bottom;
+            display: flex;
+            justify-content: left;
+            font-size: 10px;
+            margin-bottom: 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            outline: double;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>VOCÊ SAIU DO JOGO</h1>
+    <p>Encerrando simulação...</p>
+
+    <script>
+        setTimeout(() => {
+            window.close();
+            alert("Adeus.");
+        }, 5000);
+    </script>
+
+    <h2 id="dev">
+        DESENVOLVIDO por NICOLAS
+    </h2>
+</body>
+
+</html>
